@@ -6,22 +6,24 @@
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
 	</head>
 	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/blog">Nyheter</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
+        <div id="container">
+            <div id="nav">
+            	<ul>
+            	    <li><a href="/">Home</a></li>
+            	    <li><a href="/blog">Nyheter</a></li>
+            	</ul>
+			</div>
 
-				{{ content }}
+            <div id="content">
+				{{ content }} 
+			</div>
 
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:info@lillebror.se">email</a></li>
-        		<li><a href="https://github.com/lillebror-se">github.com/lillebror-se</a></li>
-			</ul>
-		</footer>
+            <div id="footer">
+				<ul>
+                	<li><a href="mailto:info@lillebror.se">email</a></li>
+                	<li><a href="https://github.com/lillebror-se">github.com/lillebror-se</a></li>
+            	</ul>
+	        </div>
+		</div>
 	</body>
 </html>
